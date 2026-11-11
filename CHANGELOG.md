@@ -2,6 +2,13 @@
 
 All notable changes to the Data Center Mechanical Design Kickoff Tool.
 
+## [1.0.1] — 2026-11-11
+
+### Fixed
+- "Save project locally" now survives a reload: the app restores saved design-basis fields, calculator inputs, equipment, risks, candidates, and checklist state from this browser on load, and shows "Restored saved project from this browser."
+- Save now also captures the 12 preliminary-calculator inputs (cooling, airflow, chilled-water, and pump inputs), which were previously not included in the saved / exported project data.
+- Known limitation: uploaded document files themselves are not restored (only their metadata and extracted candidates); re-upload documents after a reload if needed.
+
 ## [1.0.0] — 2026-11-11
 
 ### Added

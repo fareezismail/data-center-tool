@@ -1,6 +1,6 @@
 # Data Center Mechanical Design Kickoff Tool
 
-**Version 1.0.0 · Last updated 11 November 2026**
+**Version 1.0.1 · Last updated 11 November 2026**
 
 A browser-based, client-side workspace to help mechanical engineers establish a preliminary data center design basis from architectural and project documents.
 
